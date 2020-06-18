@@ -43,6 +43,10 @@ h1{
   font-size: var(--sizeTitle);
 }
 
+h3{
+  font-size: var(--sizeText);
+}
+
 span{
   color: var(--colorPrincipal);
 }
@@ -75,6 +79,19 @@ p{
   color: white;
 }
 
+.button-article{
+  width: 83px;
+  padding: var(--spacing) var(--spacingMin);
+  color: white;
+  background-color: var(--colorDark);
+  text-align: center;
+}
+
+.button-article:hover{
+  color: var(--colorDark);
+  background-color: transparent;
+}
+
 .color-yellow{
   color: var(--colorYellow);
 }
@@ -90,3 +107,4 @@ p{
 .color-secondary{
   color: var(--colorSecundary)
 }
+
