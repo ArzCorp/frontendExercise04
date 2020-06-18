@@ -1,14 +1,13 @@
 .information {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 500px;
   grid-column-gap: var(--spacingx2);
   padding: var(--spacingx3) 0px;
 }
 
 .article{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  position: relative;
 }
 
 .article__title{
@@ -36,7 +35,7 @@
 }
 
 .service__list li {
-  padding: var(--spacing) 0px;
+  padding-bottom: var(--spacingx2);
   color: var(--colorClearRGBA);
 }
 

@@ -80,8 +80,11 @@ p{
 }
 
 .button-article{
-  width: 83px;
-  padding: var(--spacing) var(--spacingMin);
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100px;
+  padding: var(--spacing);
   color: white;
   background-color: var(--colorDark);
   text-align: center;
