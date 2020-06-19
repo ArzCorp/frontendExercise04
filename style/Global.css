@@ -71,13 +71,16 @@ p{
 }
 
 .button{
+  width: 100px;
   padding: var(--spacingMin) var(--spacing);
   margin: 0px var(--spacingMin);
+  text-align: center;
 }
 
 .button:hover{
   background-color: var(--colorPrincipal);
   color: white;
+  cursor: pointer;
 }
 
 .button-article{
@@ -92,8 +95,9 @@ p{
 }
 
 .button-article:hover{
-  color: var(--colorDark);
-  background-color: transparent;
+  color: white;
+  background-color: var(--colorPrincipal);
+  cursor: pointer;
 }
 
 .color-yellow{

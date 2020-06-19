@@ -5,3 +5,7 @@ header{
   padding: var(--spacing);
   padding-bottom: var(--spacingx2);
 }
+
+.header__navbar{
+  display: flex;
+}
